@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Максим Водолажский — разработка продуктов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="nav">
+    <div class="container nav__inner">
+        <a href="#" class="nav__logo">MV</a>
+        <div class="nav__links">
+            <a href="#about">Обо мне</a>
+            <a href="#services">Услуги</a>
+            <a href="#portfolio">Портфолио</a>
+            <a href="#contact">Контакты</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="hero__content">
+            <h1 class="hero__title">
+                Разрабатываю продукты<br />
+                <span class="accent">от идеи до деплоя</span>
+            </h1>
+            <p class="hero__subtitle">
+                Архитектура, разработка, инфраструктура — всё, чтобы запустить продукт 
+                и не переписывать через полгода.
+            </p>
+            <div class="hero__actions">
+                <a href="#contact" class="btn btn--primary">Связаться</a>
+                <a href="#services" class="btn btn--ghost">Что умею</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section__title">Обо мне</h2>
+        <div class="about__grid">
+            <div class="about__text">
+                <p>
+                    Технический лидер и full-stack разработчик. Проектирую архитектуру, 
+                    пишу код, настраиваю CI/CD, поднимаю инфраструктуру. 
+                    Работаю быстро и без компромиссов по качеству.
+                </p>
+                <p>
+                    Помогаю стартапам и бизнесу запускать продукты — от прототипа 
+                    до продакшена, который держит нагрузку.
+                </p>
+            </div>
+            <div class="about__stats">
+                <div class="stat">
+                    <span class="stat__number">10+</span>
+                    <span class="stat__label">лет в разработке</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">30+</span>
+                    <span class="stat__label">запущенных проектов</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">Full</span>
+                    <span class="stat__label">цикл продукта</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="section section--dark">
+    <div class="container">
+        <h2 class="section__title">Что умею</h2>
+        <div class="services__grid">
+            <div class="service-card">
+                <i class="fas fa-cubes service-card__icon"></i>
+                <h3 class="service-card__title">Архитектура</h3>
+                <p class="service-card__desc">Проектирую бэкенд и фронтенд с учётом роста. Микросервисы, монолит — что реально нужно, а не модно.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-code service-card__icon"></i>
+                <h3 class="service-card__title">Full-stack разработка</h3>
+                <p class="service-card__desc">Python, Go, TypeScript. Бэкенд, фронтенд, API — от идеи до рабочего кода в репозитории.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-cloud service-card__icon"></i>
+                <h3 class="service-card__title">Инфраструктура</h3>
+                <p class="service-card__desc">Docker, Kubernetes, CI/CD, мониторинг. Весь пайплайн, чтобы код попадал в прод без боли.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-database service-card__icon"></i>
+                <h3 class="service-card__title">Базы данных</h3>
+                <p class="service-card__desc">PostgreSQL, Redis, ClickHouse. Схемы, миграции, оптимизация запросов под нагрузкой.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-rocket service-card__icon"></i>
+                <h3 class="service-card__title">Запуск MVP</h3>
+                <p class="service-card__desc">От идеи до работающего продукта за недели. Без оверинжиниринга, с запасом на доработку.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-shield-halved service-card__icon"></i>
+                <h3 class="service-card__title">Code Review &amp; Аудит</h3>
+                <p class="service-card__desc">Рефакторинг, оптимизация, безопасность. Приведу код в порядок и налажу процессы.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="section">
+    <div class="container">
+        <h2 class="section__title">Портфолио</h2>
+        <p class="section__subtitle">Скоро здесь появятся проекты. Следите за обновлениями.</p>
+        <div class="portfolio__grid">
+            <div class="portfolio-card portfolio-card--placeholder">
+                <div class="portfolio-card__inner">
+                    <i class="fas fa-plus"></i>
+                    <span>Скоро</span>
+                </div>
+            </div>
+            <div class="portfolio-card portfolio-card--placeholder">
+                <div class="portfolio-card__inner">
+                    <i class="fas fa-plus"></i>
+                    <span>Скоро</span>
+                </div>
+            </div>
+            <div class="portfolio-card portfolio-card--placeholder">
+                <div class="portfolio-card__inner">
+                    <i class="fas fa-plus"></i>
+                    <span>Скоро</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section section--dark">
+    <div class="container">
+        <h2 class="section__title">Контакты</h2>
+        <p class="section__subtitle">
+            Хотите обсудить проект или просто познакомиться — пишите.
+        </p>
+        <div class="contact__links">
+            <a href="https://t.me/maximbbq" target="_blank" class="contact__item">
+                <i class="fab fa-telegram-plane"></i>
+                <span>@maximbbq</span>
+            </a>
+            <a href="mailto:m.vodolazhsky@example.com" class="contact__item">
+                <i class="fas fa-envelope"></i>
+                <span>m.vodolazhsky@example.com</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer__inner">
+        <span>© 2026 Максим Водолажский</span>
+        <span class="footer__tagline">Разработка продуктов</span>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
